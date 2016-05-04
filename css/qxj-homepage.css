@@ -1,0 +1,555 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0; 
+    padding:0;
+	font:"Micosoft Yahei"Georgia, "Times New Roman", Times, serif;
+	font-size:15px;
+}
+
+a{
+	text-decoration:none;
+	
+}
+
+.clear{
+	clear:both;
+	}
+
+.hide{
+	display:none;
+}
+
+.on{
+	border-bottom:3px solid #4aa1f4;
+	cursor:pointer;
+	font-size:15px;
+	color:#4aa1f4;
+}
+	
+	
+/*    head部分    */	
+.headBar{
+	height:30px; 
+	background-color:#ebebeb;
+	line-height:30px;
+}
+
+		
+.header{
+	width:1000px; 
+	margin:0 auto;
+	}
+.header img{
+	width:1000px;
+	height:241px;
+}
+	
+.nav{
+	width: 100%
+}
+.nav ul{
+	list-style:none; 
+	width: 1000px;
+	}
+.nav li{
+	width:125px;
+	float:left;
+}
+.nav ul a{
+	display:block; 
+	line-height:35px; 
+	background-color:#4aa1f4; 
+	color:#FFF;
+	font-size:17px;
+	font-family:SimHei ;
+	margin-left:.5px;
+	margin-right:.5px;
+	text-align:center;
+}
+.nav ul a:hover{
+	background-color:#2b69a5;
+}
+.inform_bar{
+	height:35px;
+	width:100%;
+	background-color:#E7E7E7;
+	position:relative;
+	background-image:url(../icon/advertisment.ico);
+	background-repeat:no-repeat;
+	background-size:36px 36px;
+	background-position:5px 1px;
+	overflow:hidden;
+}
+
+
+.inform_bar .inform{
+	line-height:35px;
+}
+.inform_bar .inform a{
+	color:#333;
+	font-size:14px;
+}
+
+/*    head部分 结束    */
+
+
+
+
+/*     main部分      */
+.main{
+	margin-top:30px;
+	width:1000px;
+	margin:0 auto;
+}
+.main ul{
+	list-style-position:inside;
+	list-style-type:none;
+	text-indent:5px;
+	line-height:35px;
+	padding-top:5px;
+	font-size:14px;
+}
+.main li{
+	white-space:nowrap;
+	overflow:hidden;
+    text-overflow:ellipsis;
+}
+.main ul a{
+	color:#333;
+}
+
+
+
+/*    left部分      */
+.mainLeft{
+	width:700px;
+	float:left;
+}
+.mainLeft .title{
+	width:345px;
+	background-color:#fafafa;
+	height:35px;
+	line-height:35px;
+	font-family:"Microsoft Yahei";
+	color:#333;
+	border-radius:1px;
+	font-size:16px;
+}
+.mainLeft .normal{
+	text-indent:15px;
+	color:#456CF5;
+}
+.mainLeft .title li{
+    display:inline-block;
+	height:32px;
+	width:80px;
+	line-height:32px;
+	text-align:center;
+}
+.mainLeft .title a{
+	font-size:18px;
+	font-family:"Microsoft Yahei";
+	float:right;
+	margin-right:15px;
+	color:#333;
+}
+
+.mainLeft .bigTitle{
+	width:700px;	
+	height:25px;
+	background-color:#fafafa;
+	background-image:url(../icon/%E8%93%9D%E8%89%B2.jpg);
+	background-repeat:no-repeat;
+	background-size:10px 25px;
+	background-position:0 3px;
+	text-indent:20px;
+	line-height:30px;
+	border-bottom:solid 2px #4aa1f4;
+	font-size:17px;
+	font-family:"Microsoft Yahei";
+	margin-top:10px;
+	color:#333;
+	border-radius:1px;
+	padding-bottom:3px;
+}
+.weatherPic{
+	width:345px;
+	float:left;
+	height:auto;
+}
+
+.weatherPic .title{
+	background-image:url(../icon/weather.png);
+	background-size:35px 35px;
+	background-repeat:no-repeat;
+	background-position:5px;
+	text-indent:45px;
+	width:343px;
+	background-color:#fafafa;
+	font-size:17px;
+	height:40px;
+	line-height:40px;
+	font-family:"Microsoft Yahei";
+	color:#333;
+	border:1px solid #e7dfdf;
+	border-radius:1px;
+	}
+.weatherPic img{
+	width:345px;
+	height:270px;
+}
+.weatherPic .container{
+	position:relative;
+	height:auto;
+	width:auto;
+}
+.weatherPic .description{
+	position:absolute;
+	bottom:3px;
+	height:40px;
+	width:100%;
+	line-height:40px;
+	text-align:center;
+	background-color:#5A5A5A;
+	opacity:0.8;
+	color:#FFF;
+}
+.button{
+	background-color:#333;
+	width:28px;
+	height:45px;
+	background:rgba(0,0,0,0.4);
+	color:#FFF;
+	font-weight:bold;
+	position:absolute;
+	cursor:pointer;
+	border:none;
+}
+.next{
+	right:0;
+	top:113px;
+}
+.previous{
+	left:0;
+	top:113px;
+}
+
+.news{
+	width:345px;
+	height:315px;
+	float:right;
+}
+.news ul{
+	list-style-position:inside;
+	list-style-type:none;
+	text-indent:5px;
+	line-height:25px;
+	padding-top:15px;
+}
+
+.news .title{
+	background-image:url(../icon/news.png);
+	background-size:35px 35px;
+	background-repeat:no-repeat;
+	background-position:2px 2px;
+	text-indent:45px;
+	width:343px;
+	background-color:#fafafa;
+	font-size:17px;
+	height:40px;
+	line-height:40px;
+	font-family:"Microsoft Yahei";
+	color:#333;
+	border:1px solid #e7dfdf;
+	border-radius:1px;
+}
+
+.news li{
+	height:35px;
+}
+	
+.open{
+	width:700px;	
+	height:25px;
+	background-color:#fafafa;
+	background-image:url(../icon/%E8%93%9D%E8%89%B2.jpg);
+	background-repeat:no-repeat;
+	background-size:10px 25px;
+	text-indent:20px;
+	line-height:30px;
+	border-bottom:solid 2px #4aa1f4;
+	font-size:17px;
+	font-family:"Microsoft Yahei";
+	margin-top:10px;
+	color:#333;
+	border-radius:1px;
+	padding-bottom:3px;
+}
+
+.notice{
+	width:345px;
+	float:left;
+}
+
+.notice .title1 {
+	width:343px;
+	background-color:#fafafa;
+	height:28px;
+	font-family:"Microsoft Yahei";
+	color:#333;
+	border-radius:1px;
+	text-indent:10px;
+	border:#999 1px solid;
+}
+
+.report{
+	width:345px;
+	float:right;
+}
+.banner{
+	width:700px;
+	height:90px;
+	margin:5px 0 5px 0;
+}
+.disaster{
+	width:345;
+	float:left
+}
+.science{
+	width:345;
+	float:right;
+}
+.message{
+	width:700px;
+	height:160px;
+	background-color:#f7f3f3;
+	position:relative;
+}
+.message ul{
+	float:left;
+	padding-top:0;
+	margin-left:35px;
+}
+.message li a{
+	display:block;
+	width:250px;
+	height:26px;
+	margin-top:10px;
+	background-color:#4aa1f4;
+	line-height:26px;
+	text-indent:0px;
+	text-align:center;
+	font-family:"Microsoft Yahei";
+	font-size:14px;
+	font-weight:bolder;
+	color:white;	
+	background-repeat:no-repeat;
+	background-size:23px 19px;	
+
+}
+
+.message li a:hover{
+	text-decoration:underline;
+}
+
+.message  img{
+	width:120px;
+	height:120px;
+}
+
+.message .code1{
+	text-align:center;
+	position:absolute;
+	left:330px;
+	top:15px;
+}
+
+.message .code2{
+	text-align:center;
+	position:absolute;
+	right:60px;
+	top:15px;
+	
+}
+	
+/*   right部分    */
+.mainRight{
+	width:280px;
+	margin-left:720px;
+	
+}
+
+mianRight a{
+	color:#333;
+}
+
+.mainRight .title{
+	width:278;
+	height:36px;
+	border:1px #e7dfdf solid;
+	line-height:36px;
+	text-indent:10px;
+	font-size:18px;
+	font-family:"microsoft Yahei";
+	color:#333;
+	background-color:#fafafa;
+	margin-top:30px;
+	border-radius:3px;
+	
+}
+
+.mainRight .content{
+	width:264px;
+	border-left:1px #e7dfdf solid;
+	border-bottom:1px #e7dfdf solid;
+	border-right:1px #e7dfdf solid;
+	padding:7px;
+}
+
+.mainRight .weather{
+	height:200px;
+	overflow:hidden;
+}
+
+.mainRight .weather .title{
+	margin:0;
+}
+
+.mainRight .weather .content{
+	background-color:#f7f3f3;
+	width:264px;
+	height:230px;
+	overflow:hidden;
+	text-indent:0;
+	text-align:center;
+	margin:0 auto;
+}
+
+.mainRight .weather .text{
+	line-height:20px;
+	font-size:16px;
+	height:255px;
+	
+}
+
+.mainRight .alert a{
+	margin-top:10px;
+	display:block;
+	margin-bottom:10px;
+	text-indent:10px;
+	color:#333;
+	line-height:30px;
+}
+
+.mainRight .work {
+	margin-bottom:40px;
+	height:240px;
+}
+ 
+.mainRight .work a{
+	float:left;
+	line-height:40px;
+	text-indent:35px;
+	display:block;
+	width:118px;
+	height:40px;
+	background-color:#4aa1f4;
+	margin-left:15px;
+	margin-top:50px;
+	font-size:16px;
+	font-family:"Microsoft Yahei";
+	font-weight:bolder;
+	color:white;
+	
+}
+
+.mainRight .premit{
+	background-image:url(../icon/permit.png);
+	background-size:25px 25px;
+	background-repeat:no-repeat;
+	background-position:10px 7px;
+	margin-left:30px;
+}
+.mainRight .flow{
+	background-image:url(../icon/flow.png);
+	background-size:25px 25px;
+	background-repeat:no-repeat;
+	background-position:10px 7px;
+	margin-left:30px;
+}
+.mainRight .guide{
+	background-image:url(../icon/guide.png);
+	background-size:25px 25px;
+	background-repeat:no-repeat;
+	background-position:8px 7px;
+	margin-left:30px;
+}
+.mainRight .table{
+	background-image:url(../icon/table.png);
+	background-size:25px 25px;
+	background-repeat:no-repeat;
+	background-position:10px 7px;
+	margin-left:30px;
+}	
+
+.mainRight .server a{
+	display:block;
+	width:250px;
+	height:30px;
+	margin-top:15px;
+	margin-left:15px;
+	background-color:#4aa1f4;
+	line-height:26px;
+	text-indent:0px;
+	text-align:center;
+	font-family:"Microsoft Yahei";
+	font-size:15px;
+	font-weight:bolder;
+	color:white;
+	border-radius:3px;	
+	
+}
+ 
+ 
+ 
+/*   footer部分   */
+.footer{
+	width:1000px;
+	margin:20px auto 20px auto;
+}
+
+.links_title{
+	width:100%;
+	font-size:19px;
+	font-family:"microsoft Yahei";
+	font-weight:bolder;
+	color:#333;
+}
+.cut{
+	border:none;
+	border-top:2px double #4aa1f4;
+}
+.links{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:70px;
+	background-color:#f7f3f3;
+	margin:5px 0;
+}
+.links a{
+	display:block;
+	margin:0 10px;
+	border:#CCC 1px solid;
+	border-radius:10px;
+}
+.footer .nav a{
+	background-color:#AFAFAF;
+}
+.copyright{
+	text-align:center;
+	margin:20px 0;
+}
+  
+	
