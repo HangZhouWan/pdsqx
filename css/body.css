@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+a{
+	color:#333;
+}
+.main{
+	width:1000px;
+	height:auto;
+	margin:10px auto;
+}
+.location{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	background-color:#fafafa;
+	border-bottom:1px #E7E7E7 solid;
+	border-top:1px #E7E7E7 solid;
+	text-indent:5px;
+}
+
+.leftContent{
+	float:left;
+	border:#E7E7E7 1px solid;
+	width:70%;
+	text-align:center;
+	min-height:550px;
+	margin:20px auto;
+}
+.newsTitle{
+	font-size:25px;
+	font-weight:bolder;
+	margin:40px auto;
+	font-family:"黑体"
+}
+.subhead{
+	line-height:20px;
+	background-color:#C6F5FB;
+	width:100%;
+	margin:30px auto;
+}
+.leftContent p{
+	text-indent:2em;
+	text-align:left;
+	line-height:20px;
+	padding:10px 20px;
+}
+
+.mainRight{
+	margin-left:710px;
+	margin-top:20px;
+}
+.mainRight .title{
+	width:278;
+	height:36px;
+	border:1px #e7dfdf solid;
+	line-height:36px;
+	text-indent:10px;
+	font-size:18px;
+	font-family:"microsoft Yahei";
+	color:#333;
+	background-color:#fafafa;
+	margin-top:30px;
+	border-radius:3px;
+	
+}
+
+.mainRight .content{
+	width:273px;
+	border-left:1px #e7dfdf solid;
+	border-bottom:1px #e7dfdf solid;
+	border-right:1px #e7dfdf solid;
+	padding:7px;
+}
+
+.mainRight .weather{
+	height:200px;
+	overflow:hidden;
+}
+
+.mainRight .weather .title{
+	margin:0;
+}
+
+.mainRight .weather .content{
+	background-color:#f7f3f3;
+	width:278px;
+	height:230px;
+	overflow:hidden;
+	text-indent:0;
+	text-align:center;
+	margin:0 auto;
+}
+
+.mainRight .weather .text{
+	line-height:20px;
+	font-size:16px;
+	height:255px;
+	
+}
+.mainRight .alert a{
+	margin-top:10px;
+	display:block;
+	margin-bottom:10px;
+	text-indent:10px;
+	color:#333;
+	line-height:30px;
+}
+
+
